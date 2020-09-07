@@ -1,0 +1,41 @@
+/* font-family: "ArialRegular"; */
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular.eot");
+    src: url("../fonts/ArialRegular.eot")format("embedded-opentype"),
+    url("../fonts/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "ArialItalic"; */
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic.eot");
+    src: url("../fonts/ArialItalic.eot")format("embedded-opentype"),
+    url("../fonts/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Georgia Regular"; */
+@font-face {
+    font-family: 'Georgia Regular';
+    src: url('../fonts/Georgia.eot');
+    src: url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Georgia.woff') format('woff'),
+    url('../fonts/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font-family: "TimesNewRoman Regular"; */
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('../fonts/TimesNewRomanRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+ 
+  }
+
+  body {
+   @extend %arial;
+    font-size: 16px;
+    line-height: 24px;
+    background: #fafafa;
+    color: #545454;
+    min-width: 320px;
+    position: relative;
+    
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+  li,
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  img{
+      
+  }
+
+  section{
+    padding: 70px 0;
+  }
+  h1{
+    font-size: 35px;
+    @extend %georgia;
+    color: #fff;
+    line-height: 1.286;
+    margin: 0;
+  }
+  h2{
+    font-size: 35px;
+    @extend %georgia;
+    color: #545454;
+    line-height: 1.286;
+    margin: 0;  
+  }
+  p{
+    font-size: 15px;
+    font-family: "Arial";
+    color: #4c4c4c;
+    line-height: 24px;
+    margin: 0;  
+  }
+  .wrapper{
+    overflow: hidden;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .round__btn{
+      font-size: 17px;
+      @extend %georgia;
+      color: #292929;
+      line-height: 100%;
+      padding: 17px 40px;
+      border-radius: 30px;
+      background-color: #f1cdb3;
+      border: 2px solid #f1cdb3;
+      transition: all .3s;
+      display: inline-block;
+      cursor: pointer;
+      &:hover{
+        background-color: transparent;
+      }
+
+  }
